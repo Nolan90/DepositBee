@@ -1,0 +1,466 @@
+/**************************
+GENERAL
+***************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color:#fff;
+  color: #999;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+a {
+  text-decoration:none;
+  color: #999;
+}
+
+img {
+  max-width: 100%
+}
+
+p {
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #999;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 100;
+  color: #999;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/**************************
+HEADING
+***************************/
+
+#home header, #uni header, #about header {
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  width: 100%;
+  }
+
+#home-bg {
+  background-image: url("../img/no-yellow-around-mirror.png");
+  background-size: 1300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#uni header {
+  background-image: url("../img/Background-Resized-Darkened.png");
+  background-size: 768px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  }  
+
+#about header {
+  background-image: url("../img/about-image.png");
+  background-size: 768px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 300px;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+.header-text h1, .header-text h2, .header-text p {
+  color: #fff;
+}
+
+#home .header-text, #home .header-text h1, #home .header-text h2 #home .header-text p {
+  max-width: 70%;
+  margin: 8% auto 0;
+}
+
+#home .header-text h1 {
+  clear: both;
+  margin: 0 auto;
+  line-height: 1.2em;
+}
+
+#home .header-text h2, #uni .header-text h2 {
+  font-size: 1em;
+}
+
+#uni .header-text h1, #uni .header-text h2 {
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+
+
+/**************************
+NAVIGATION
+***************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  background: #fed317;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+nav a.selected, nav a:hover {
+  color:#fff;
+}
+
+#home nav {
+  margin-top: 0;
+}
+
+#home nav h1 {
+  background: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  font-size: 1em;
+  padding: 5px;
+}
+#home nav h1 a {
+  color: #fff;
+}
+
+
+
+/**************************
+FOOTER
+***************************/
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #999;
+}
+
+footer h2 {
+  font-size: 1.5em;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+/**************************
+PAGE HOME
+***************************/
+
+/***********
+Signup Form
+************/
+
+#mc_embed_signup {
+  background: rgba(0,0,0,0); 
+  color: #fff;
+  font-size: 1.1em;
+  text-align: center;
+  clear: both;
+  display: inline-block;
+  margin: 10px auto 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+#mc_embed_signup h2 {
+  color: fff;
+}
+
+input {
+  line-height: 2em;
+  margin: 10px 0;
+  padding: 2px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.6);
+  color: #484848;
+}
+.mc-field-group {
+  display: inline-block;
+}
+
+.signup-message {
+  display: block;
+}
+
+input#mce-MMERGE2 {
+  width: 80%;
+}
+
+.button {
+  background: rgba(0,0,0,0);
+  color: #fff;
+  padding: 5px 10px;
+  border: solid 3px #fff;
+  border-radius: 10px;
+}
+
+/********
+Meet Joe
+*********/
+
+#home-stats {
+  background: rgba(0,0,0,0.6);
+  padding: 5px 5% 5%;
+}
+
+#home-stats h1, #home-stats h2 {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  margin: 15px;
+  font-size: 1.1em;
+}
+#home-stats h2 a {
+  background: rgba(0,0,0,0);
+  color: #fff;
+  padding: 5px 10px;
+  border: solid 3px #fff;
+  border-radius: 10px;
+}
+
+.stat-image, .stat-image-hidden {
+  max-width: 90%;
+  display: block;
+  margin: 20px auto;
+}
+
+.home-stat-hidden {
+  display: none;
+}
+
+.show-hidden {
+  background: rgba(0,0,0,0);
+  color: #fff;
+  border: solid 3px #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*******************
+This is how we work
+********************/
+
+.home-process {
+  background: #f3f3f3;
+  color: #999;
+  text-align: center;
+  padding: 2%;
+}
+.home-process h2 {
+  color: #000;
+  margin-top: 0;
+}
+
+/****
+faqs
+****/
+
+#faq-list {
+  background-image: url("../img/faq-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 20px;
+}
+#faq-list h1 {
+  text-align: center;
+  margin: 0 auto 10px;
+  padding: 10px 0;
+  color: #fff;
+}
+
+#faq-list h2 {
+  color: #fff;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.faq {
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px;
+  background: rgba(0,0,0,0.6);
+  border: none;
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+.answer {
+  display: none;
+  color: #fff;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/***********
+Testimonials
+************/
+
+.home-testimonials {
+  background: #dbdbda;
+  color: #000;
+  padding: 2%;
+}
+.home-testimonials h2 {
+  color: #000;
+  margin-top: 0;
+  text-align: center;
+}
+
+.testimonial {
+  display: inline-block;
+  max-width: 20%;
+  min-width: 250px;
+  margin: 0 2%;
+  vertical-align: top;
+ }
+
+.testimonial-inner {
+  margin: 0 auto;
+}
+
+.bubble 
+{
+position: relative;
+display:inline-block;
+max-width:250px;
+min-height:1.5em;
+padding: 20px;
+background: #078AC9;
+color: #fff;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+
+.bubble:after 
+{
+content: "";
+position: absolute;
+bottom: -14px;
+left: 20%;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #078AC9 transparent;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.testimonial-author {
+  margin-top: 15px;
+}
+
+
+
+/**************************
+PAGE UNIVERSITIES
+***************************/
+
+.learn-more {
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px #999;
+  max-width: 150px;
+  margin: 10px auto;
+}
+
+.learn-more a {
+  font-size: 1.5em;
+}
+
+.feature-image {
+  border-radius: 30px;
+}
+
+.more-than-advice {
+  clear: both;
+  background-image: url("../img/Pen-Home-Image.png");
+  background-size: 768px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: 10px;
+  padding: 10%;
+  min-height: 300px;
+}
+
+.more-than-advice, .more-than-advice h1, .more-than-advice h2 {
+  color: #fff;
+  font-weight: normal;
+}
+
+.more-than-advice h1, .more-than-advice h2 {
+  background: rgba(153, 153, 153, 0.4);
+}
+
+.more-than-advice h1 {
+    max-width: 340px;
+}
+
+.stats {
+  text-align: center;
+  background: #e5e3dc;
+}
+
+.process {
+  text-align: center;
+  font-weight: normal;
+  max-width: 90%;
+  margin: 0 auto;
+  }
+
+.flowchart {
+  display: none;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/**************************
+PAGE: ABOUT
+***************************/
+
+.about-text {
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+
